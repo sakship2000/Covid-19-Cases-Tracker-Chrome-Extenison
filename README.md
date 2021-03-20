@@ -21,6 +21,7 @@ As this extension is not published, the installation is manual.
 3. Navigate to Chrome Extensions from your browser settings
 4. Enable Developer mode, located on the top right corner of the Extensions page
 5. Click the 'Load unpacked' on the top left corner and select the downloaded repo
+
 You're done! Now you can track COVID-19 cases at the clikc of a button.
 If you'd like, you can pin the extensino to your toolbar. 
 
