@@ -1,9 +1,10 @@
 // @author sakship2000
 // setup api querying
 const api = "https://coronavirus-19-api.herokuapp.com/countries";
-// get cases info
+// error and loading setup
 const errors = document.querySelector(".errors");
 const loading = document.querySelector(".fetching");
+// get cases info
 const cases = document.querySelector(".cases");
 const deaths = document.querySelector(".deaths");
 const todayCases = document.querySelector(".todayCases");
@@ -22,6 +23,7 @@ const country = document.querySelector(".country-name");
 const countrySearch = async countryName => {
   loading.style.display = "block";
   errors.textContent = "";
+  // error handling
   try {
     const response = await axios.get(`${api}/${countryName}`);
     if(response.data ==="Country not found"){ throw error;  }
