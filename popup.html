@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="popup.js" defer></script>
+  </head>
+  <body>
+    <div class="header">COVID-19 Cases Tracker</div>
+    <div class="container">
+    <form class="form-data" autocomplete="on">
+      <div class="enter-country">
+        <b>Enter country name:</b>
+      </div>
+      <div>
+        <span style="display: inline;">
+          <input type="text" class="country-name"/><button class="search-btn">Search</button>
+        </span>
+      </div>
+    </form>
+    <div class="result">
+      <div class="fetching">fetching...</div>
+      <div class="errors"></div>
+      <div class="data"></div>
+      <div class="result-container">
+        <table class="display-cases">
+          <tr>
+            <th id="new cases">New Cases</th> 
+          </tr>
+          <tr>
+            <td><p><span class="todayCases"></span></p></td>
+          </tr>
+          <tr>
+            <th id="new deaths">New Deaths</th>
+          </tr>
+          <tr>
+            <td><p><span class="todayDeaths"></span></p></td>
+          </tr>
+          <tr>
+            <th id="total cases">Total Cases</th>
+          </tr>
+          <tr>
+            <td><p><span class="cases"></span></p></td>
+          </tr>
+          <tr>
+            <th id="total deaths">Total Deaths</th>
+          </tr>
+          <tr>
+            <td><p><span class="deaths"></span></p></td>
+          </tr>
+          <tr>
+            <th id="total recovered"> Total Recovered</th>
+          </tr>
+          <tr>
+            <td><p><span class="recovered"></span></p></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
