@@ -23,7 +23,7 @@ As this extension is not published, the installation is manual.
 5. Click the 'Load unpacked' on the top left corner and select the downloaded repo
 
 You're done! Now you can track COVID-19 cases at the clikc of a button.
-If you'd like, you can pin the extensino to your toolbar. 
+If you'd like, you can pin the extension to your toolbar. 
 
 ## Interface
 The interface uses a dark theme with a minimalistic approach, developed using css. 
